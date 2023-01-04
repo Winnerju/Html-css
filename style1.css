@@ -230,7 +230,7 @@ ul.pull-left li, ul.pull-right li {
     text-align: center;
     display: flex;
     flex-direction:column ;
-    margin-right: 430px;
+    margin-right: 450px;
     
     
 } 
@@ -242,7 +242,7 @@ ul.pull-left li, ul.pull-right li {
     text-align:center; 
     font-size: 15px;
     margin-bottom: 70px;
-    margin-left: 390px;
+    margin-left: 410px;
     /* ;
     margin-right: 0px;
     padding-top: 20px; */
