@@ -1,0 +1,496 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position:relative;
+    height: 100%;
+    line-height: 28px;
+    font-weight: 300;
+    background-color: #ddd;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    /* max-width: 1440px; */
+}
+#fht-header{
+    background-image: url('images/kalo.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position:relative;
+    width: 100%;
+    
+}
+.container{
+        
+margin-right: 100px;
+margin-left: 100px;
+padding-left: 100px;
+
+
+        
+} 
+.center-position{    
+    line-height: normal;
+    display: flex;
+    justify-content:flex-start;
+    text-align: left;
+    margin-left: 200px;
+    color:lightgray;
+    font-size: 50px; 
+    font-family:"Roboto", Arial, sans-serif;
+    font-weight: 50;
+       
+} 
+#fth-header nav{
+    display: flex;
+    position: relative;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+#fth-header .pull-left {
+    display: flex;
+    align-items: flex-start;
+}
+#fth-header .pull-right{
+ display: flex;
+ align-items: flex-end;
+ color: white;
+}
+.login{
+    text-decoration: none;
+    color:darkgrey;
+}
+ul.pull-left , .container2 >div h2  {
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+ 
+}
+ul.pull-left {
+    color:darkgrey;
+}
+ul.pull-right{
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+ul.pull-left li, ul.pull-right li {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+}
+
+#fht-header #fht-lg a {
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+
+.container2 {
+ display: table;
+ position: relative;
+ margin:0;
+ padding: 100px;
+
+}
+.intro {
+  vertical-align:middle;
+  width: 100%;
+  text-align: center; 
+  margin-right: 200px;
+ display: flex;
+ flex-direction:column ;
+ 
+  
+       
+}
+ .left-position{
+  
+  margin-top: 150px; 
+}
+
+.buttons {
+    /* margin-left: 10px;  */
+     background-color:transparent;
+    cursor: pointer;
+    /* border:none; */
+    color:white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -6px 4px; 
+    opacity: 0.5;  
+    margin-left: 150px;
+    border-color: white;
+} 
+
+.buttons1 {
+   
+    margin-left: 100px; 
+    background-color:rgb(74, 24, 238);
+    border: 50px;
+    color: beige;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -6px 4px; 
+    cursor: pointer;
+}
+
+.buttons2 {
+    margin-left: 100px; 
+    background-color:transparent;
+    cursor: pointer;
+    color:darkgrey;
+    /* padding: 15px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: -6px 4px; 
+    opacity: 40px;  
+    border-radius: 0.5rem;
+    size: 10px;
+    width: 100px;
+    border-color: white;
+}
+      
+.dbutton{
+    margin-bottom: 700px;
+    margin-right: 590px; 
+}
+
+.container2 >div h2 {
+    font-size: 40px;
+    line-height: 40px; 
+    padding-left: 200px; 
+    
+}
+.container2 .fth-lire-plus{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    text-align: center;
+    z-index: 12;
+
+}
+.fht-lire-plus {
+    padding-top: 30px;
+    text-align: center;
+    display:inline-block;
+    position: absolute;
+    top: 85%;
+    
+}
+.scroll-btn {
+    display: inline;
+    width: 40px;
+    padding-left: 500px;
+    margin-right: 70px;
+    padding-top: 100px;
+    text-decoration: none; 
+    color:darkgray;
+    
+}
+#fth-projects .row-bottom-padded-md >div h2 {
+    display: inline-flex;
+    margin-right:50px;
+    margin-left: 520px;
+    padding:0px;
+    text-align:center;
+    position:relative;
+    top: 50px;
+    bottom: 100px;
+    left: 10%;
+    transform:translateX(-50%) translateY(-50%);
+ }
+
+ #fth-projects .produit{
+    /* display: inline-flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position:relative;
+    justify-content: flex-start;
+    text-align: center; */
+    position: relative;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    margin-right: 430px;
+    
+    
+} 
+.prod {
+    /*
+    background-color: transparent;
+    color: rgb(198, 193, 193);
+    opacity: ; */
+    text-align:center; 
+    font-size: 15px;
+    margin-bottom: 70px;
+    margin-left: 390px;
+    /* ;
+    margin-right: 0px;
+    padding-top: 20px; */
+    
+    
+}
+
+.photo {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.haut{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.bas{
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row
+{
+    background-color: white;
+    border-radius: 5px;
+    /* margin: auto;
+    width: 20%;*/
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    margin:10%
+      
+}
+.row:hover{
+    box-shadow: 2px 2px 10px black;
+}
+*{
+    box-sizing: border-box;  
+}
+
+.column{
+    width: 20%;
+    
+    /* float:inline-start; */
+}
+.column img{
+    
+    width: 300px;
+    height: 200px;   
+}
+
+.title
+{
+    text-align: center;
+    margin:10px;
+    /* padding-bottom: 10px; */
+    
+}
+.row::after 
+{
+     content:"";
+   /* display: table;*/
+    clear: both;  
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+    margin: 20px;
+    font-size: 15px;
+    opacity: 1;
+    /* margin:20px; */
+}
+.fa-thin {
+    color:white;
+
+    
+}
+.fa {
+    color:white;
+    
+}
+.arrow{
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: rgb(74, 24, 238);
+    border-radius: 50%;
+    margin-left: 560px;
+    margin-top: 20px;
+   
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    .center-position{
+      
+       /* margin-left: 90px;
+       font-size: 40px; 
+       line-height: 40px; */
+       margin-left: 90px;
+       font-size: 50px;  
+       
+    }
+    .dbutton{
+        
+     
+     margin-right: 90px;
+     display: inline;
+             
+    }
+
+    .mo{
+      margin-right: 150px;
+    }
+    
+    .buttons{
+      
+         margin:0px
+        
+        
+    }
+    .container{
+       /* margin-right:100px;  */
+       
+    }
+    .scroll-btn{
+       width: 50px;  
+       padding-left: 270px;
+
+
+    }
+    
+    .arrow{
+           margin-left: 330px;  
+           text-align: center;
+    }
+    #fth-projects .produit{
+          margin-right: 120px;  
+        
+    }
+    #fth-projects .row-bottom-padded-md >div h2{
+         margin-left: 310px;
+         font-weight: 200; 
+    }
+    .prod{
+         margin-left: 150px;  
+         /* margin-right: 300px;  */
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    
+    .center-position{
+        margin-left: 250px;
+        margin: 50px;
+        font-size: 30px; 
+        
+        
+     }
+     .dbutton{
+         
+          margin-right: 250px; 
+             
+     }
+     .buttons{
+       
+          margin-left: 0px; 
+         
+         
+     }
+     .container{
+        /* margin-right:100px;  */
+        
+     }
+     .scroll-btn{
+        width: 50px;
+        padding-left: 250px;  
+ 
+ 
+     }
+     .arrow{
+          margin-left: 310px; 
+     }
+     #fth-projects .produit{
+         margin-right: 150px;  
+         
+     }
+     #fth-projects .row-bottom-padded-md >div h2{
+         margin-left: 300px;
+         font-weight: 100; 
+     }
+     .prod{
+        margin-left: 150px;
+         /* margin-right: 200px; */   
+     }
+} 
+
+@media screen and (max-width: 995px){
+   
+    .center-position{
+        margin-left: 80px;
+        margin-right: 0px;
+        font-size: 40px; 
+    }
+    .dbutton{
+    margin: 0px; 
+           
+   }
+   
+   .buttons{
+       
+    margin-left: 0px;   
+   }
+   
+   .mo{
+  margin-right: 200px;
+   }
+   
+   .scroll-btn{
+    width: 50px;
+    padding-left: 250px;
+ }
+ 
+ .arrow{
+    margin-left: 310px; 
+ }
+ 
+ #fth-projects .produit{
+    margin-right: 200px;  
+    
+}
+
+#fth-projects .row-bottom-padded-md >div h2{
+    margin-left: 280px;
+    font-weight: 100; 
+}
+
+.prod{
+    margin-left: 150px;
+     /* margin-right: 200px; */   
+ }
+    
+}
