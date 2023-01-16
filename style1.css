@@ -82,12 +82,12 @@ body {
     
    
  }
- h1.menu-milieu{
+ h2.menu-milieu{
     text-align: center;
     width: 100%;
     margin: auto;
  }
- h1.menu-milieu a{
+ h2.menu-milieu a{
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -398,7 +398,7 @@ p.prod{
     #header .menu-droit , #header .menu-gauche{
         display: none;
     }
-    h1.menu-milieu{
+    h2.menu-milieu{
         padding-top:10px;
         text-align: center;
     } 
