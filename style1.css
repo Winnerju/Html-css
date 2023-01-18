@@ -292,7 +292,8 @@ p.prod{
     min-height: 250px;
 }
 .title p{
- font-size: 13px;
+  text-align: center;
+  font-size: 13px;
   margin: 0 0 40px;
 }
 .title h3{
