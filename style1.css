@@ -30,7 +30,7 @@ body {
     background-image: url('images/kalo.jpg');
     background-repeat: no-repeat;
     background-size:cover;
-    position:relative;
+    position:relative;  
     left: 0;
     padding-top: 12px;
     width: 100%;
@@ -104,7 +104,7 @@ body {
     position: absolute;
     top: 10%;
     right: 0%;
- } 
+ }
  
  h1.create-position{
     line-height: normal;
